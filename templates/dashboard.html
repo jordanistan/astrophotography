@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deep Space Objects Dashboard</title>
+</head>
+<body>
+    <h1>Deep Space Objects to Photograph</h1>
+    <ul>
+        {% for object in objects %}
+        <li>
+            <strong>{{ object.name }}</strong><br>
+            Best Time to View: {{ object.best_time_to_view }}<br>
+            Location: {{ object.location }}
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
