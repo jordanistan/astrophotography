@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  time-teller:
+    build:
+      context: .
+    image: time-teller:latest
+    stdin_open: true
+    tty: true
+
