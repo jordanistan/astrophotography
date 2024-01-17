@@ -108,9 +108,9 @@ docker exec -ti astrophotography-time-teller-1 python time-teller.py
 
 This setup will create a Docker container that runs your Python script, allowing for interactive input as required by your script. Remember to install any additional Python packages you might need by updating the Dockerfile accordingly (using RUN pip install commands).
 
-## :Demo: ##
+<!-- ## :Demo: ##
 
-[![Demo](timer-teller-demo.mp4)](timer-teller-demo.mp4)
+[![Demo](timer-teller-demo.mp4)](timer-teller-demo.mp4) -->
 
 
 Made with :heart: by <a href="https://github.com/jordanistan" target="_blank">Jordan</a>
